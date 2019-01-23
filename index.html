@@ -5,12 +5,6 @@
 	<title> This is my awesome icon marketplace</title>
 	<link rel="stylesheet" href="css/main.css">
 
-	<style>
-	#badge {...write rules here}
-
-	.isabadge {..write rule here}
-</style>
-
 </head>
 <body>
 <!-- 	div.image-wrapper*2>img[src="" alt="badge"] -->
@@ -19,20 +13,20 @@
 		<img src="images/newBadge.jpg" alt="badge">
 	</div>
 
+	<!-- inline SVG  -->
+
 	<div class="image-wrapper">
-		<img src="images/newBadge.svg" alt="badge" id="badge">
-		<img src="images/newBadge.svg" alt="badge" class="isabadge" id="badge1">
-		<img src="images/newBadge.svg" alt="badge" class="isabadge" id="badge2">
-		<img src="images/newBadge.svg" alt="badge" class="isabadge" id="badge3">
-		<img src="images/newBadge.svg" alt="badge" class="isabadge" id="badge4">
-		<img src="images/newBadge.svg" alt="badge" class="isabadge" id="badge5">
-		<img src="images/newBadge.svg" alt="badge" class="isabadge" id="badge6">
+		<object data="images/newBadge.svg" type="text/svg"> </object>
+		<button>More Info</button>
+		<!-- js doesn't interact with object tag -->
 	</div>
 
 	<!-- javascript always goes at the bottom -->
-	<script src="js/master.js"></script>
-
+	<script src="js/main.js"></script>
 
 	</body>
 	</html>
 	
+
+	</body>
+	</html>
